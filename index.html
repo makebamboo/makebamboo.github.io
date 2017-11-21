@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bamboo</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <style>
+    body,
+    html {
+      height: 100%;
+      margin: 0;
+    }
+    body {
+      background-image: url('./assets/wellington.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo {
+      width: 70%;
+      margin-bottom: 50px;
+    }
+    .email {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 48px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: opacity 0.3s ease-in-out;
+      color: #ddd;
+      text-shadow:
+       -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+         1px 1px 0 #000;
+    }
+    .email:hover {
+      opacity: 0.75;
+    }
+  </style>
+</head>
+<body>
+  <img class="logo" src='./assets/logo.svg' />
+  <a class="email" href="mailto:hello@makebamboo.com">get in touch</a>
+</body>
+</html>
